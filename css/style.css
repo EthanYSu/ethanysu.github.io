@@ -3,9 +3,9 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body{
@@ -24,7 +24,8 @@ body{
 
 .main-container{
     max-width: 100%;
-    width: 100%;}
+    width: 100%;
+    height: 0;}
     .main-container .info-container{
         margin: 5% 0 5% 0;
         width: 100%;
@@ -96,8 +97,4 @@ body{
         width: 35px;
         opacity: 0.75;
     }
-
-@media only screen and (max-width: 768px){
-    
-}
-          
+         
