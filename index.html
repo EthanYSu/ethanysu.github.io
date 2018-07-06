@@ -12,63 +12,77 @@
     <section class="main-container container-fluid">
         <div class="info-container">
             <div class="row">
-                <h1>Ethan Su</span></h1>
+                <div class="col-sm-10 col-sm-offset-2 col-xs-12">
+                    <h1>Ethan <span class="purpleblue-underline">Su</span></h1>
+                </div>
             </div>
             <div class="row">
-                <p>Computer-Engineering student with a passion for Application Development.</p>
+                <div class="col-sm-10 col-sm-offset-2 col-xs-12">
+                    <p>Computer-Engineering student with a passion for <span class="blue-color" >Application Development.</span></p>
+                </div>
             </div>
         </div>
-        <div class="aboutMe row">
-            <p> I use the following software libraries and applications to create cool projects.</p>
-            <h4>languages...</h4>
-            <ul class="languages list">
-                <li><img id="scale" src="img/C.png" alt="C"></li>
-                <li><img id="scale" src="img/cpp.png" alt="CPP"></li>
-                <li><img id="scale" src="img/java.png" alt="JAVA"></li>
-                <li><img id="scale" src="img/python.png" alt="PYTHON"></li>
-                <li><img id="scale" src="img/matlab.png" alt="MATLAB"></li>
-                <li><img id="scale" src="img/sql.svg" alt="SQL"></li>
-                <li><img id="scale" src="img/js.png" alt="JS"></li>
-                <li><img id="scale" src="img/html.png" alt="HTML"></li>
-                <li><img id="scale" src="img/css.png" alt="CSS"></li>
-                <li><img id="scale" src="img/swift.png" alt="SWIFT"></li>
-            </ul>
-            <h4>software...</h4>
-            <ul class="softare list">
-                <li><img id="scale" src="img/as.png" alt="AS"></li>
-                <li><img id="scale" src="img/xcode.png" alt="XCODE"></li>
-                <li><img id="scale" src="img/vs.png" alt="VS"></li>
-                <li><img id="scale" src="img/vsc.png" alt="VSC"></li>
-                <li><img id="scale" src="img/git.png" alt="GIT"></li>
-                <li><img id="scale" src="img/intellij.png" alt="INTELLIJ"></li>
-                <li><img id="scale" src="img/sublime.png" alt="SUBLIME"></li>
-            </ul>
+        <div class="about-me row">
+            <div class="col-sm-8 col-sm-offset-2 col-xs-12 skills">
+                <p> I use the following programming languages and software to create cool projects.</p>
+                <h4>languages...</h4>
+                    <ul class="languages">
+                        <li><img src="img/C.png" alt="C"></li>
+                        <li><img src="img/cpp.png" alt="CPP"></li>
+                        <li><img src="img/java.png" alt="JAVA"></li>
+                        <li><img src="img/python.png" alt="PYTHON"></li>
+                        <li><img src="img/matlab.png" alt="MATLAB"></li>
+                        <li><img src="img/sql.svg" alt="SQL"></li>
+                        <li><img src="img/js.png" alt="JS"></li>
+                        <li><img src="img/html.png" alt="HTML"></li>
+                        <li><img src="img/css.png" alt="CSS"></li>
+                        <li><img src="img/swift.png" alt="SWIFT"></li>
+                    </ul>
+                <h4>software...</h4>
+                    <ul class="software">
+                        <li><img id="scale" src="img/as.png" alt="AS"></li>
+                        <li><img id="scale" src="img/xcode.png" alt="XCODE"></li>
+                        <li><img id="scale" src="img/vs.png" alt="VS"></li>
+                        <li><img id="scale" src="img/vsc.png" alt="VSC"></li>
+                        <li><img id="scale" src="img/git.png" alt="GIT"></li>
+                        <li><img id="scale" src="img/intellij.png" alt="INTELLIJ"></li>
+                        <li><img id="scale" src="img/sublime.png" alt="SUBLIME"></li>
+                </ul>
+            </div>
         </div>
     </section>
     <section class="portfolio-container container-fluid">
         <div class="row">
-            <div>
-                <h3>My Projects...</h3>
+            <div class="col-sm-8 col-sm-offset-2 col-xs-12 skills">
+                <div>
+                    <h3>My Projects...</h3>
+                </div>
             </div>
         </div>
         <div class="projects container-fluid">
             <div class="projects row">
-                <a href="./html/crypto.html"><img src="img/crypto-1.PNG">
-                    <div class="overlay">
-                        <div class="text">CryptoCurrency Tracker</div>
-                    </div>
-                </a>
+                <div class="col-sm-8 col-sm-offset-2 col-xs-12 skills">
+                    <a href="./html/crypto.html"><img src="img/crypto-1.PNG">
+                        <div class="overlay">
+                            <div class="text">CryptoCurrency Tracker</div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
     <section class="footer container-fluid">
         <div class="row">
-            <p>Ethan Su. All Rights Reserved.</p>
+            <div class="col-sm-8 col-sm-offset-2 col-xs-12 skills">
+                <p>Ethan Su. All Rights Reserved.</p>
+            </div>
         </div>
         <div>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/ethanysu/" target ="_blank"><img id="scale" src="img/linkedin.svg"></a></li>
-                <li><a href="https://github.com/EthanYSu" target="_blank"><img id= "scale" src ="img/github.png"></a></li>
+            <ul class="contact-links">
+                <div class="col-sm-8 col-sm-offset-2 col-xs-12 skills">
+                    <li><a href="https://www.linkedin.com/in/ethanysu/" target ="_blank"><img src="img/linkedin.svg"></a></li>
+                    <li><a href="https://github.com/EthanYSu" target="_blank"><img src ="img/github.png"></a></li>
+                </div>
             </ul>
         </div>
     </section>
@@ -77,13 +91,4 @@
             crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
-
-<style>
-    #scale{
-        height:35px;
-    }
-    li{
-        display:inline;
-    }
-</style>
 </html>

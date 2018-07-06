@@ -13,3 +13,91 @@ body{
     color: #404040;
 }
 
+.purpleblue-underline{
+    border-bottom: 0.15em solid #D0D0FD; 
+}
+
+.blue-color{
+    color: #B6DAFD;
+    font-weight: 750;
+}
+
+.main-container{
+    max-width: 100%;
+    width: 100%;}
+    .main-container .info-container{
+        margin: 5% 0 5% 0;
+        width: 100%;
+    }
+    .main-container .about-me {
+        margin: 0;
+        width: 100%; }
+        .main-container .about-me .languages {
+          padding: 0; 
+        }
+        .main-container .about-me .languages p {
+            line-height: 1.4;
+            font-weight: 500; 
+        }
+        .main-container .about-me .languages ul.languages{
+            padding-top: 3%;
+            list-style-type: none; 
+        }
+        .main-container .about-me .languages li {
+            display: inline-block;
+            padding-right: 0.1%;
+            padding-bottom: 1.5%;
+         }
+         .main-container .about-me .languages li img{
+            width: 70px;
+            height: 75px;
+            margin: 5%;
+         }
+        .main-container .about-me .software{
+            padding:0;
+        }
+        .main-container .about-me .software p {
+            line-height: 1.4;
+            font-weight: 500; 
+        }
+        .main-container .about-me .software ul.software {
+            padding-top: 3%;
+            list-style-type: none; 
+        }
+        .main-container .about-me .software li {
+            display: inline-block;
+            padding-right: 0.1%;
+            padding-bottom: 1.5%;
+         }
+         .main-container .about-me .software li img{
+            width: 70px;
+            height: 75px;
+            margin: 5%;
+         }
+
+
+.footer{
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+    .footer .contact-links ul{
+        list-style-type: none;
+        text-align: right;
+    }
+    .footer .contact-links li{
+        display: inline;
+        padding-right: 0.1%;
+        padding-bottom: 1.5%;
+    }
+    .footer .contact-links li img{
+        height: 35px;
+        width: 35px;
+        opacity: 0.75;
+    }
+
+@media only screen and (max-width: 768px){
+    
+}
+          
