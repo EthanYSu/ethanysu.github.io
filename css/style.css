@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* @font-face{
+    font-family: 'Raleway';
+    src: url("Raleway.otf")
+} */
 
 *{
     margin: 0;
@@ -17,6 +22,10 @@ body{
     border-bottom: 0.15em solid #D0D0FD; 
 }
 
+.purpleblue-underline2{
+    border-bottom: solid #D0D0FD; 
+}
+
 .blue-color{
     color: #B6DAFD;
     font-weight: 750;
@@ -24,15 +33,40 @@ body{
 
 .main-container{
     max-width: 100%;
-    width: 100%;
-    height: 0;}
+    width: 100%;}
     .main-container .info-container{
         margin: 5% 0 5% 0;
         width: 100%;
     }
+    .main-container .info-container h1{
+        font: 5em "Raleway", sans-serif;
+        text-transform: lowercase;
+        letter-spacing: 1.5px;
+    }
+    .main-container .info-container p#tagline{
+        font: 2.5em "Raleway", serif;
+        padding-top: 2.5%;
+        max-width: 50%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+
     .main-container .about-me {
         margin: 0;
-        width: 100%; }
+        width: 100%;
+        text-align: center; }
+        .main-container .about-me p#lands{
+            font: 2em "Raleway",serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-bottom: 3%;
+        }
+        .main-container .about-me p#lands-accent{
+            font: 1.5em "Raleway",serif;
+            font-weight: 1000;
+            text-emphasis: lowercase;
+        }
         .main-container .about-me .languages {
           padding: 0; 
         }
@@ -40,13 +74,13 @@ body{
             line-height: 1.4;
             font-weight: 500; 
         }
-        .main-container .about-me .languages ul.languages{
+        .main-container .about-me .languages ul{
             padding-top: 3%;
-            list-style-type: none; 
+            list-style-type: none;
         }
         .main-container .about-me .languages li {
             display: inline-block;
-            padding-right: 0.1%;
+            padding-right: 0.5%;
             padding-bottom: 1.5%;
          }
          .main-container .about-me .languages li img{
@@ -54,6 +88,8 @@ body{
             height: 75px;
             margin: 5%;
          }
+
+
         .main-container .about-me .software{
             padding:0;
         }
@@ -61,13 +97,14 @@ body{
             line-height: 1.4;
             font-weight: 500; 
         }
-        .main-container .about-me .software ul.software {
+        .main-container .about-me .software ul {
             padding-top: 3%;
+            text-align: center;
             list-style-type: none; 
         }
         .main-container .about-me .software li {
             display: inline-block;
-            padding-right: 0.1%;
+            padding-right: 0.5%;
             padding-bottom: 1.5%;
          }
          .main-container .about-me .software li img{
@@ -76,12 +113,23 @@ body{
             margin: 5%;
          }
 
+.portfolio-container{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+    .portfolio-container .skills p#projects{
+        font: 2.5em "Raleway", sans-serif;
+        padding-top: 4%;
+        letter-spacing: 1.5px;
+    }
 
 .footer{
     margin: 0;
     padding: 0;
     margin-top: 5%;
     margin-bottom: 2.5%;
+    text-align: center;
 }
     .footer .contact-links ul{
         list-style-type: none;
